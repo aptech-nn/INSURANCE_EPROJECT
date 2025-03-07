@@ -1,0 +1,40 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+#style-logo{
+    font-family: Monotype Corsiva;
+  }
+.header{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background:rgba(0,0,0,0.1) url(https://www.motortrend.com/uploads/2023/07/2024-Audi-A3-front-view-10.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#button4 a:hover{
+    color: black;
+}
+.drop{
+    text-decoration: none;
+}
+.drop:hover{
+    color:black;
+}
+button a{
+    text-decoration: none;
+    color: grey;
+}
+button a:hover{
+    color:white ;
+}
+.action{
+    background-color: lightgrey;
+}  
+
+#link1 a,#link2 a{
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+}

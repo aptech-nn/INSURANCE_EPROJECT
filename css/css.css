@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+ #style-logo{
+    font-family: Monotype Corsiva;
+  }
+  .nav-link:hover{
+    text-decoration: underline;
+  }
+ .header1{
+     text-align: center;
+     height: 90vh;
+     width: 100%;
+     color: white;
+     background:rgba(0,0,0,0.1) url( https://media.assettype.com/thequint/2021-07/9ac63f09-e609-48c9-9a07-ce92ba51f0ad/thequint_2019_01_217dfde7_6f82_44f4_96b2_9e1410b1b111_iStock_155439315.jpeg);
+     background-size: cover;
+     background-blend-mode: darken;
+ }
+ #button4 a:hover{
+     color: black;
+ }
+ .drop{
+     text-decoration: none;
+ }
+ .drop:hover{
+     color:black;
+ }
+ button a{
+     text-decoration: none;
+     color: grey;
+ }
+ button a:hover{
+     color:white ;
+ }
+ .action{
+     background-color: lightgrey;
+ }  
+ 
+ #link1 a,#link2 a{
+     color: rgb(255, 183, 0);
+     text-decoration: none;
+ }
+ .header2{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: black;
+    background-image: url(https://media.istockphoto.com/id/1213336906/photo/happy-little-preschool-girl-giving-high-five-to-male-doctor.jpg?s=612x612&w=0&k=20&c=i9V2Zhj5MLEs7SiKxq5B3h5M1pC8Fz5AaJyuk6fVBBk=);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header3{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background:rgba(0,0,0,0.1) url(https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header4{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background:rgba(0,0,0,0.1) url(https://media.istockphoto.com/id/981339754/photo/silhouette-of-engineer-and-construction-team-working-at-site-over-blurred-background-sunset.jpg?s=612x612&w=0&k=20&c=ACQLq17lMGeOpqp51hfR5AmK_yk_X_AIngfeq1frujk=);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header5{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background:rgba(0,0,0,0.1) url(https://images.unsplash.com/photo-1470645792662-dd18394f8c97?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-blend-mode: darken;
+}

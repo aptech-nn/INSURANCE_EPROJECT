@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#style-logo{
+    font-family: Monotype Corsiva;
+  }
+  .nav-link:hover{
+    text-decoration: underline;
+  }
+button a{
+    text-decoration: none;
+    color: grey;
+}
+button a:hover{
+    color:white ;
+}
+.drop{
+    text-decoration: none;
+}
+.drop:hover{
+   color:black;
+}
+.header li a{
+    color: white;
+} 
+ .nav-item{
+    color: white;
+ } 
+ .i{
+    height: 600px;
+    width: 100%;
+ } 
+.im{
+    height: 700px;
+} 
+
+.hello{
+    size:20px;
+    margin: 2rem;
+} 
+.header{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background-image:url(https://www.glenngow.com/wp-content/uploads/Founder-Syndrome-1024x614.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#button4 a:hover{
+    color: black;
+}
+/* .message{
+    background-image: linear-gradient(to right,#ffefba,#ffffff);
+} */
+#fancy-card{
+    font-family: Roboto, sans-serif;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    overflow: hidden; /* otherwise header image won't respect rounded corners */
+    transition: all .5s ease; /* back to normal */
+  }
+  #fancy-card:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); /* move up slightly and zoom in */
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; /* zoom in */
+    cursor: pointer;
+  }
+
+.image-rotate{
+    transform: rotate(-10deg);
+}
+#Query-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+#link1 a,#link2 a{
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+}
+#color-text a{
+    text-decoration: none;
+    color: grey;
+}
+#color-text a:hover{
+    text-decoration: none;
+    color: black;
+}

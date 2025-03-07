@@ -1,0 +1,265 @@
+/* index css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+#style-logo{
+  font-family: Monotype Corsiva;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+.drop{
+    text-decoration: none;
+}
+.drop:hover{
+   color:black;
+}
+button a{
+    text-decoration: none;
+    color: grey;
+}
+button a:hover{
+    color:white ;
+}
+.header{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    background:rgba(0,0,0,0.1) url(https://static.vecteezy.com/system/resources/previews/018/790/399/non_2x/insurance-concept-hand-wooden-arrangement-on-wood-background-free-photo.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#fade-in{
+  animation-name:Fade-in;
+  animation-duration: 2s;
+}
+@keyframes Fade-in{
+  0%{
+    margin-bottom: 100px;
+    opacity: 0;
+  }
+  100%{
+  opacity: 1;
+}
+}
+
+#head1{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8n4emKcB7qV3UqZxS4EewNMTUpctOmcYCQ&s);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+#button4 a:hover{
+    color: black;
+}
+.message{
+    background-image: linear-gradient(to right,#ffefba,#ffffff);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0e060681;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .countoverlay:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.bord{
+    border:2px solid rgb(229,229,229);
+}
+/* gff */
+#error_message{
+  color: red;
+}
+
+.info-link a:hover{
+  color: black;
+}
+.coler{
+    color:black;
+}
+.coler:hover{
+    color: gray;
+}
+.backcolor{
+  background-image: linear-gradient(to right,#ffefba,#ffffff);
+}
+#crd1 a,
+#crd2 a,
+#crd3 a,
+#crd4 a,
+#crd5 a,
+#crd6 a
+{
+    color: white;
+}
+#crd1 a:hover,
+#crd2 a:hover,
+#crd3 a:hover,
+#crd4 a:hover,
+#crd5 a:hover,
+#crd6 a:hover{
+    color: black;
+}
+.down a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.down a:hover{
+    font-size: 23px;
+}
+.error { color: red; }
+/* review css */
+.mark1{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+/* download button css */
+#download-button{
+  height: 40px;
+}
+/* rating css */
+#rate{
+    justify-content: end;
+}
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+  }
+  
+  .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .rating label:last-child {
+    position: static;
+  }
+  
+  .rating label:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .rating label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating label:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .rating label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .rating label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating label:last-child .icon {
+    color: #ccc;
+  }
+  
+  .rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color: rgb(255, 174, 0);
+  }
+  
+  .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px rgb(255, 183, 0);
+  }
+
+#link1 a,#link2 a{
+    color: rgb(255, 183, 0);
+    text-decoration: none;
+}
+
+/* Careers Css */
+.career-link-items{
+    list-style: none;
+    font-size: 25px;
+}
+.career-link-items a{
+ text-decoration: none;
+ color: black;
+}
+.under-line{
+  text-decoration: underline grey;
+}
+.size{
+  height: 500px;
+  width: 800px;
+}
+#size{
+  height: 900px;
+  width:100%;
+}
+.container a{
+  text-decoration: none;
+  color: black;
+}
+.container a:hover{
+  text-decoration: underline;
+}
+.border{
+   border: 1px solid black;
+}
+/* contact css */
+.error{
+  color: red;
+}
+/* about css */
+#section-center{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#section-center1{
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+#section2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
